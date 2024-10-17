@@ -130,12 +130,13 @@ body {
     font-style: italic;
 }
 
-.projects-list{
+.project-list{
     width: 100%;
     margin-bottom: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .projects img{
