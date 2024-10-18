@@ -189,7 +189,25 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (max-width: 857px ) {
+@media (max-width: 768px) {
+    .about h1 {
+        color: #FF0000;
+    }
+    .about {
+        flex-direction: column;
+        padding-left: 30px;
+        
+    }
+    .about div {
+        max-width: 100%;
+        margin-bottom: 8px;
+        
+    }
+    .about img {
+        margin-left: 120px;
+    }
+}
+/* @media (max-width: 857px ) {
    .main h1 {
     font-size: 45px;
    }
@@ -209,6 +227,16 @@ html {
     padding-right: 0%;    
    }
 
+   .about div {
+    max-width: 100%;
+    padding-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+   }
+   .nav {
+    width: 100%;
+   }
+
 
    .about img {
     width: 80%;
@@ -216,4 +244,4 @@ html {
     margin-left: 30px;
    }
 
-}
+}*/
