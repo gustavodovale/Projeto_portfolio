@@ -99,13 +99,8 @@ body {
     padding-right: 40px;
 }
 .about img {
-    max-width: 100%;
+    max-width: 450px;
     border-radius: 8px;
-}
-@media (min-width: 768px) {
-    .about img {
-        max-width: 450px;
-    }
 }
 
 .about h1 {
