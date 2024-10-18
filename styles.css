@@ -188,3 +188,32 @@ footer p {
 html {
     scroll-behavior: smooth;
 }
+
+@media (max-width: 857px ) {
+   .main h1 {
+    font-size: 45px;
+   }
+   .main p {
+    font-size: 18px;
+   }
+
+   .main {
+    background-size: cover;
+   }
+
+   .about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+    padding-left: 0%;
+    padding-right: 0%;    
+   }
+
+
+   .about img {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 30px;
+   }
+
+}
